@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SchedulerWindow</class>
+ <widget class="QMainWindow" name="SchedulerWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>308</width>
+    <height>125</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>关机计划</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QDateTimeEdit" name="dateTimeEdit">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>10</y>
+      <width>201</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="target_label">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>81</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>输入关机时间：</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="countdown_label">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>50</y>
+      <width>81</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>关机倒计时：</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>50</y>
+      <width>201</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="submit_button">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>80</y>
+      <width>75</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>提交</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="withdrew_button">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>80</y>
+      <width>75</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>撤销</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
